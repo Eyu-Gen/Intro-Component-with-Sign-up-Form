@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyu Gen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="images/yugin.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="container" id="detailsContainer">
+            <p class="heading">Learn to code by watching others</p>
+            <p class="description">
+                See how experienced developers solve problems in real time.
+                Watching scripted tutorials is great, but understanding how developers think is invaluable.
+            </p>
+        </section>
+
+        <section class="container" id="formContainer">
+            <div class="subscriptionBlock">
+                <p class="subscriptionDetails">
+                    <span class="bold">Try it free for 7 days</span> then $20/mo. thereafter
+                </p>
+            </div>
+
+            <div class="form">
+                <form id="usersForm">
+                    <div class="inputBox">
+                        <input type="text" class="inputValue" placeholder="First Name" id="firstName">
+                        <div class="imageSection errorImgSection">
+                            <img src="images/icon-error.svg" alt="" class="errorImg">
+                        </div>
+                    </div>
+                    <div class="errorBlock">
+                        <p class="error">First Name cannot be empty</p>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" class="inputValue" placeholder="Last Name" id="lastName">
+                        <div class="imageSection errorImgSection">
+                            <img src="images/icon-error.svg" alt="" class="errorImg">
+                        </div>
+                    </div>
+                    <div class="errorBlock">
+                        <p class="error">Last Name cannot be empty</p>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" class="inputValue" placeholder="Email Address" id="emailAddress">
+                        <div class="imageSection errorImgSection">
+                            <img src="images/icon-error.svg" alt="" class="errorImg">
+                        </div>
+                    </div>
+                    <div class="errorBlock">
+                        <p class="error">Email cannot be empty</p>
+                        <p id="reEnter">Looks like this is not an email</p>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" class="inputValue" placeholder="Password" id="password">
+                        <div class="imageSection errorImgSection">
+                            <img src="images/icon-error.svg" alt="" class="errorImg">
+                        </div>
+                    </div>
+                    <div class="errorBlock">
+                        <p class="error">Password cannot be empty</p>
+                    </div>
+                    <button id="submitBtn" class="bold">Claim your free trial</button>
+                </form>
+                
+                <p class="termsPara">
+                    By clicking the button, you are agreed to our <a href="#">Terms and Services</a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="index.js" defer></script>
+</body>
+</html>
