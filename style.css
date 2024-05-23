@@ -99,7 +99,7 @@ main{
                             outline: none;
                         }
 
-                        &:focus,
+                        &,
                         &::placeholder{
                             font-weight: 700;
                             font-size: 13px;
